@@ -1,0 +1,61 @@
+/* Global CSS */
+
+div {
+  margin: 20px 0px 0px 32px;
+}
+p {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+h1 {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  font-size: 64px;
+  text-align: center;
+  color: rgba(142, 38, 192, 1);
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+img {
+  width: 556px;
+  height: 347px;
+}
+.font_size32 {
+  font-size: 32px;
+}
+.padding {
+  padding: 24px 40px 24px 40px;
+}
+
+/* || Only Classes */
+
+.first_statement {
+  background-color: rgba(255, 232, 232, 1);
+}
+.sale_num {
+  color: rgb(255, 69, 37);
+}
+.second_statement {
+  text-align: center;
+  width: 1023px;
+  font-size: 40px;
+  border-top: 2px solid rgba(0, 199, 110, 1);
+  border-right: 4px solid rgba(0, 85, 255, 1);
+  border-bottom: 2px solid rgba(127, 86, 217, 1);
+  border-left: 6px solid rgba(193, 21, 116, 1);
+}
+.third_statement {
+  text-align: center;
+  background-color: rgba(255, 232, 232, 1);
+  width: 1023px;
+}
+.fourth_statement {
+  border: 2px solid rgba(53, 56, 205, 1);
+  text-align: right;
+  width: 1069px;
+}
+.image_div {
+  margin-top: 50px;
+}
