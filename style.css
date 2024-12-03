@@ -1,61 +1,81 @@
-/* Global CSS */
-
-div {
-  margin: 20px 0px 0px 32px;
+h1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: 'JetBrains Mono';
+  color: #8E26C0;
+  margin: 24px 0px 0px 0px;
 }
-p {
-  margin: 0;
-  padding: 0;
+.inline_block {
   display: inline-block;
 }
-h1 {
-  margin-top: 24px;
-  margin-bottom: 0px;
-  font-size: 64px;
-  text-align: center;
-  color: rgba(142, 38, 192, 1);
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 img {
+  margin-top: 76px;
   width: 556px;
   height: 347px;
 }
-.font_size32 {
-  font-size: 32px;
-}
-.padding {
-  padding: 24px 40px 24px 40px;
-}
-
-/* || Only Classes */
-
 .first_statement {
-  background-color: rgba(255, 232, 232, 1);
+  width: 485px;
+  color: #F00;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 29px;
 }
-.sale_num {
-  color: rgb(255, 69, 37);
+.first_statement, .third_statement {
+  background-color: #FFE8E8;
 }
 .second_statement {
+  border-top: 2px solid #00C76E;
+  border-bottom: 2px solid #7F56D9;
+  border-left: 4px solid #C11574;
+  border-right: 6px solid #05F;
   text-align: center;
-  width: 1023px;
-  font-size: 40px;
-  border-top: 2px solid rgba(0, 199, 110, 1);
-  border-right: 4px solid rgba(0, 85, 255, 1);
-  border-bottom: 2px solid rgba(127, 86, 217, 1);
-  border-left: 6px solid rgba(193, 21, 116, 1);
+  margin-top: 32px;
+  color: rgba(133, 100, 123, 1);
 }
 .third_statement {
+  margin-top: 44px;
   text-align: center;
-  background-color: rgba(255, 232, 232, 1);
-  width: 1023px;
+  color: rgba(65, 70, 81, 1);
+}
+span {
+  color: #FF4405;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 .fourth_statement {
-  border: 2px solid rgba(53, 56, 205, 1);
+  color: #0064CE;
   text-align: right;
-  width: 1069px;
+  font-weight: 400;
+  line-height: normal;
+  width: 989px;
+  text-align: right;
+  margin-top: 36px;
+  border: 2px solid #3538CD;
 }
-.image_div {
-  margin-top: 50px;
+p {
+  padding: 24px 40px;
+}
+p, img {
+  margin-left: 32px;
+}
+.first_statement, .fourth_statement {
+  font-size: 32px;
+}
+.second_statement, .third_statement {
+  font-size: 40px;
+  width: 943px;
+}
+.Lato {
+  font-family: 'Lato';
 }
