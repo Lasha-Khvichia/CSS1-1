@@ -1,3 +1,5 @@
+/* || General CSS */
+
 h1 {
   text-align: center;
   font-size: 64px;
@@ -5,14 +7,27 @@ h1 {
   color: #8E26C0;
   margin: 24px 0px 0px 0px;
 }
-.inline_block {
-  display: inline-block;
+span {
+  color: #FF4405;
+  font-family: Lato;
+  font-size: 40px;
+  text-decoration-line: underline;
+  text-underline-position: from-font;
 }
 img {
   margin-top: 76px;
   width: 556px;
   height: 347px;
 }
+p {
+  padding: 24px 40px;
+}
+p, img {
+  margin-left: 32px;
+}
+
+/* || Class selectors */
+
 .first_statement {
   width: 485px;
   color: #F00;
@@ -40,19 +55,6 @@ img {
   text-align: center;
   color: rgba(65, 70, 81, 1);
 }
-span {
-  color: #FF4405;
-  font-family: Lato;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: auto;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
-  text-underline-position: from-font;
-}
 .fourth_statement {
   color: #0064CE;
   text-align: right;
@@ -63,12 +65,6 @@ span {
   margin-top: 36px;
   border: 2px solid #3538CD;
 }
-p {
-  padding: 24px 40px;
-}
-p, img {
-  margin-left: 32px;
-}
 .first_statement, .fourth_statement {
   font-size: 32px;
 }
@@ -76,6 +72,12 @@ p, img {
   font-size: 40px;
   width: 943px;
 }
+
+/* || Reusable CSS Rules */
+
 .Lato {
   font-family: 'Lato';
+}
+.inline_block {
+  display: inline-block;
 }
